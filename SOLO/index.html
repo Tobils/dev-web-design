@@ -13,24 +13,103 @@
     <!-- favicon  -->
     <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
 
+    <!-- google font  raleway dan open sans -->
+
+
+    <!-- Font awesome  -->
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS  -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+
     <!-- css  -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
-    <!-- example mark up  -->
-    <h1>
-        Welcome to solo
-    </h1>
-    <p id="main">This is Paraghraf</p>
-    <div>
-        <p class="content">This is Paraghraf</p>
-        <p class="content">This is Paraghraf</p>
+    <!-- pre loader  -->
+    <div id="preloader">
+        <!--- show preload status -->
+        <div id="status">&nbsp;</div>
     </div>
 
-    <!-- JQuer  -->
+    <!-- Home  -->
+    <section id="home">
+        <!-- Background video  -->
+        <video id="home-bg-video" poster="video/solo.jpg" autoplay loop muted>
+            <source src="video/solo.mp4" type="video/mp4">
+            <source src="video/solo.ogv" type="video/ogv">
+            <source src="video/solo.webm" type="video/webm">
+        </video>
+
+        <!-- overlay  -->
+        <div id="home-overlay"></div>
+
+        <!-- Home Content  -->
+        <div id="home-content" class="text-center">
+            <div id="home-content-inner">
+                <div id="home-heading">
+                    <h1 id="home-heading-1">Digital</h1><br>
+                    <h1 id="home-heading-2">Creative <span>Agency</span></h1>
+                </div>
+                <div id="home-text">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem nisi iure sed ex illum. Laborum nam tenetur veritatis, consectetur possimus neque rem eos molestias aliquam. Molestiae officia fugiat dolorum eius.
+                    </p>
+                </div>
+                <div id="home-btn">
+                    <a class="btn btn-general btn-home" href="#about" title="Start Now" role="button">Start Now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Arrow down  -->
+        <a href="#about" id="arrow-down">
+            <i class="fa fa-angle-down"></i>
+        </a>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- temporary space  -->
+    <section><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></section>
+
+    <!-- JQuery  -->
     <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap JS  -->
+    <script src="js/bootstrap/bootstrap.js"></script>
 
     <!-- custom js  -->
     <script src="js/script.js"></script>
