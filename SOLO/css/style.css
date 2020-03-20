@@ -436,17 +436,20 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 .skill h4 {
-    line-height: 64px;
+    line-height: 62px;
     margin: 0;
     font-weight: normal;
 }
 
 .progress {
+    height: 20px;
+    border-radius: 0%;
     overflow: visible;
 }
 
 .progress-bar {
     background-color: #F4C613;
+    overflow: visible;
     position: relative;
 }
 
@@ -458,8 +461,11 @@ ul.social-list li:nth-child(3) a:hover {
     padding: 3px;
     position: absolute;
     left: 97%;
-    /* top: -47px; */
+    top: -35px;
 }
+
+
+/* tanda panah kecil kebawah */
 
 .progress-bar span:before {
     content: "";
