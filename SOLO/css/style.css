@@ -211,7 +211,7 @@ section {
 
 
 /* ==========================================
-                Vertical Headings
+        Vertical,Horizontal Headings
 ========================================== */
 
 .vertical-heading h5 {
@@ -230,9 +230,29 @@ section {
 
 .vertical-heading h2 {
     margin: 0 0 0 35px;
+}
+
+.vertical-heading h2,
+.horizontal-heading h2 {
     font-size: 42px;
     font-weight: 200;
     line-height: 45px;
+}
+
+.horizontal-heading {
+    margin-bottom: 60px;
+}
+
+.horizontal-heading h5 {
+    font-size: 16px;
+    color: #F4C613;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.horizontal-heading h2 {
+    margin: 0;
 }
 
 
@@ -475,4 +495,83 @@ ul.social-list li:nth-child(3) a:hover {
     position: absolute;
     bottom: -8px;
     left: 23%;
+}
+
+
+/* ==========================================
+                Statement 
+========================================== */
+
+#statement {
+    background: url("../img/tech/tech-quote.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/* efect shadow */
+
+#statement .content-box-lg {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+#tech-statement h3 {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 45px;
+}
+
+#tech-statement p {
+    font-size: 14px;
+    color: #F4C613;
+    font-family: "Raleway", sans-serif;
+    margin-top: 8px;
+}
+
+
+/* ==========================================
+                Service 01 
+========================================== */
+
+#services-01 img {
+    margin: 60px 0;
+}
+
+.service {
+    margin: 35px 0;
+}
+
+.service .icon {
+    font-size: 42px;
+    margin: 0;
+    -webkit-transition: all 400ms linear;
+    transition: all 400ms linear;
+}
+
+.service:hover .icon {
+    color: #F4C613;
+    -webkit-transform: translateX(-20px);
+    transform: translateX(-20px);
+}
+
+.service h5 {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #F4C613;
+    margin: 0 0 6px 0;
+}
+
+.service:hover h5 {
+    color: #212226;
+}
+
+.service h4 {
+    font-size: 24px;
+    margin: 0 0 8px 0;
+}
+
+.service p {
+    line-height: normal;
 }

@@ -37,6 +37,4 @@ $(function() {
     }, {
         offset: 'bottom-in-view'
     });
-
-
 })
