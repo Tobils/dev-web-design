@@ -173,6 +173,18 @@ section {
     border: 1px solid #F4C613;
 }
 
+.btn-yellow {
+    color: #ffffff;
+    background: #F4C613;
+}
+
+.btn-yellow:hover,
+.btn-yellow:focus {
+    color: #ffffff;
+    background-color: #212226;
+    border: 1px solid #212226;
+}
+
 
 /* ==========================================
                 Arrow Down
@@ -574,4 +586,79 @@ ul.social-list li:nth-child(3) a:hover {
 
 .service p {
     line-height: normal;
+}
+
+
+/* ==========================================
+            Services 02 Responsive Tabs
+========================================== */
+
+#services-02 {
+    background: #f4f4f4;
+}
+
+#services-tabs {
+    margin: 0 140px;
+}
+
+#services-tabs ul {
+    margin-bottom: 40px;
+}
+
+#services-tabs ul li {
+    padding: 5px 30px;
+}
+
+#services-tabs ul li a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    color: #212226;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+/* Tabs active state */
+
+#services-tabs ul li.r-tabs-state-active a {
+    color: #F4C613;
+    font-weight: 700;
+    border-bottom: 3px solid #F4C613;
+    padding-bottom: 5px;
+    -webkit-transition: border-color 300ms linear;
+    transition: border-color 300ms linear;
+}
+
+.service-tab .col-md-6 {
+    padding: 0;
+}
+
+.service-tab img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.service-tab .tab-bg {
+    background: #ffffff;
+    padding: 10px 30px;
+    min-height: 394px;
+}
+
+.service-tab h2 {
+    font-size: 48px;
+    color: #bbbbbb;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.service-tab h3 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.service-tab p {
+    line-height: 24px;
+    margin-bottom: 30px;
 }
